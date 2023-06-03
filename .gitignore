@@ -1,3 +1,5 @@
+venv/
+
 #JetBrains
 /.idea
 *.iml
