@@ -22,5 +22,9 @@ color_img = read_image('pexels-angelo-herreras-16881617.jpg')
 img_to_analyse = deepcopy(color_img)
 circle = cv2.circle(img_to_analyse, (2664, 1995), 400, (125, 50, 39), 20)
 show_image(bw_img, 'bw_img')
+cv2.waitKey(0)
 show_image(color_img, 'color_img')
+cv2.waitKey(0)
 show_image(circle, 'circle')
+
+
